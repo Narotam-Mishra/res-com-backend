@@ -49,7 +49,9 @@ const updateResData = async (req, res) => {
 
 const getCounterData = async (req,res) => {
   try {
+    // store API counter into count
     const count = apiCounter;
+    // then send the count in response to Frontend
     res.json({ count });
   } catch (error) {
     console.error(error);

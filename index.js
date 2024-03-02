@@ -14,7 +14,7 @@ server.use(cors());
 
 // home route
 server.get('/', (req,res) => {
-    res.send('Welcome to MERN App');
+    res.send('Welcome to Resizable Component MERN App');
 })
 
 // API route setup
