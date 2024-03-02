@@ -18,7 +18,7 @@ server.get('/', (req,res) => {
 })
 
 // API route setup
-server.use('/api/v1/resCom', apiRoute);
+server.use('/api/v1', apiRoute);
 
 // Middleware setup for invalid route
 server.use(notFound);
